@@ -13,3 +13,11 @@ assertEqual(1, 1);
 assertEqual("bla","bla1");
 assertEqual(2,2);
 assertEqual(234,342);
+
+const head = function(value) {
+  return value[0];
+}
+
+assertEqual(head([5,6,7]), 5);
+assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
+assertEqual(head([]), "Hello");
