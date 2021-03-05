@@ -18,9 +18,10 @@ const eqArrays = function (arrayA, arrayB) {
 // Returns true if both objects have identical keys with identical values.
 // Otherwise you get back a big fat false!
 const eqObjects = function(object1, object2) {
+  
+  const obj1Keys = Object.keys(object1);
 
   if (Object.keys(object1).length !== Object.keys(object2).length) { return false; }
-  const obj1Keys = Object.keys(object1);
 
   for (let key of obj1Keys) {
     if ( !Object.keys(object1).includes(key) || !Object.keys(object2).includes(key)) {
