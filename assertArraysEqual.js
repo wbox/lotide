@@ -24,7 +24,7 @@ const eqArrays = function (arrayA, arrayB) {
 // TEST CODE
 
 
-assertArrayEqual([1,2,3],[1,2,3]);
 assertArrayEqual([1,2,3],[1,"2",3]);
+assertArrayEqual([1,2,3],[1,2,3]);
 assertArrayEqual([1,2,3]);
 

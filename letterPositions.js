@@ -19,6 +19,7 @@ const eqArrays = function (arrayA, arrayB) {
   }
   return true;
 };
+
 const letterPositions = function(sentence) {
   const results = {};
   for (let letterIndex in sentence) {
