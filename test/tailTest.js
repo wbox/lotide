@@ -17,7 +17,11 @@ const result = tail(["Hello", "Lighthouse", "Labs"]);
 describe("#tail", () => {
 
   it("returns ['Lighthouse', 'Labs'] for [\"Hello\", \"Lighthouse\", \"Labs\"]", () => {
-    assert.strictEqual(tail(arrayTest), ["Lighthouse", "Labs"]);
+    assert.deepEqual(tail(arrayTest), ["Lighthouse", "Labs"]);
   });
+
+  it("return ['5] for ['5']", () => {
+    assert.deepEqual(tail(['5']), ['5']);
+  })
 
 })
