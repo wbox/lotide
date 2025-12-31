@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/wbox/lotide#readme",
   "devDependencies": {
-    "chai": "^4.3.3",
+    "chai": "^6.2.0",
     "mocha": "^11.0.0"
   }
 }
